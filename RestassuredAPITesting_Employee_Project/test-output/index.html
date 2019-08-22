@@ -1,0 +1,1149 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" />
+    <script type="text/javascript" src="jquery-1.7.1.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <br/>
+      <span class="top-banner-font-1">1 suite, 1 failed test</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" class="collapse-all-link" title="Collapse/expand all the suites">
+          <img class="collapse-all-icon" src="collapseall.gif">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" class="navigator-link" panel-name="suite-EmployeeRestAPISuite">
+              <span class="suite-name border-failed">EmployeeRestAPISuite</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="test-xml-EmployeeRestAPISuite">
+                    <span>C:\AvaPro\RestassuredAPITesting_Employee_Project\testng.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="testlist-EmployeeRestAPISuite">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="group-EmployeeRestAPISuite">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="times-EmployeeRestAPISuite">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="reporter-EmployeeRestAPISuite">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="ignored-methods-EmployeeRestAPISuite">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="chronological-EmployeeRestAPISuite">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">40 methods, 1 failed,   39 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-EmployeeRestAPISuite" class="hide-methods failed suite-EmployeeRestAPISuite"> (hide)</a> <!-- hide-methods failed suite-EmployeeRestAPISuite -->
+                      <a href="#" panel-name="suite-EmployeeRestAPISuite" class="show-methods failed suite-EmployeeRestAPISuite"> (show)</a> <!-- show-methods failed suite-EmployeeRestAPISuite -->
+                    </span>
+                    <div class="method-list-content failed suite-EmployeeRestAPISuite">
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-EmployeeRestAPISuite" title="com.employeeapi.testcase.TC004_Put_Employee_Record" hash-for-method="checkResponsebody">checkResponsebody</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-EmployeeRestAPISuite -->
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-EmployeeRestAPISuite" class="hide-methods passed suite-EmployeeRestAPISuite"> (hide)</a> <!-- hide-methods passed suite-EmployeeRestAPISuite -->
+                      <a href="#" panel-name="suite-EmployeeRestAPISuite" class="show-methods passed suite-EmployeeRestAPISuite"> (show)</a> <!-- show-methods passed suite-EmployeeRestAPISuite -->
+                    </span>
+                    <div class="method-list-content passed suite-EmployeeRestAPISuite">
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-EmployeeRestAPISuite" title="com.employeeapi.testcase.TC005_Delete_Employee_Record" hash-for-method="checkContentLength">checkContentLength</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-EmployeeRestAPISuite" title="com.employeeapi.testcase.TC002_Get_Single_Employee_Record" hash-for-method="checkContentLength">checkContentLength</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-EmployeeRestAPISuite" title="com.employeeapi.testcase.TC003_Post_Employee_Record" hash-for-method="checkContentLength">checkContentLength</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-EmployeeRestAPISuite" title="com.employeeapi.testcase.TC001_Get_All_Employees" hash-for-method="checkContentLength">checkContentLength</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-EmployeeRestAPISuite" title="com.employeeapi.testcase.TC004_Put_Employee_Record" hash-for-method="checkContentLength">checkContentLength</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-EmployeeRestAPISuite" title="com.employeeapi.testcase.TC003_Post_Employee_Record" hash-for-method="checkContentType">checkContentType</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-EmployeeRestAPISuite" title="com.employeeapi.testcase.TC005_Delete_Employee_Record" hash-for-method="checkContentType">checkContentType</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-EmployeeRestAPISuite" title="com.employeeapi.testcase.TC004_Put_Employee_Record" hash-for-method="checkContentType">checkContentType</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-EmployeeRestAPISuite" title="com.employeeapi.testcase.TC001_Get_All_Employees" hash-for-method="checkContentType">checkContentType</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-EmployeeRestAPISuite" title="com.employeeapi.testcase.TC002_Get_Single_Employee_Record" hash-for-method="checkContentType">checkContentType</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-EmployeeRestAPISuite" title="com.employeeapi.testcase.TC005_Delete_Employee_Record" hash-for-method="checkCookies">checkCookies</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-EmployeeRestAPISuite" title="com.employeeapi.testcase.TC003_Post_Employee_Record" hash-for-method="checkCookies">checkCookies</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-EmployeeRestAPISuite" title="com.employeeapi.testcase.TC004_Put_Employee_Record" hash-for-method="checkCookies">checkCookies</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-EmployeeRestAPISuite" title="com.employeeapi.testcase.TC001_Get_All_Employees" hash-for-method="checkCookies">checkCookies</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-EmployeeRestAPISuite" title="com.employeeapi.testcase.TC002_Get_Single_Employee_Record" hash-for-method="checkCookies">checkCookies</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-EmployeeRestAPISuite" title="com.employeeapi.testcase.TC004_Put_Employee_Record" hash-for-method="checkResponseTime">checkResponseTime</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-EmployeeRestAPISuite" title="com.employeeapi.testcase.TC001_Get_All_Employees" hash-for-method="checkResponseTime">checkResponseTime</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-EmployeeRestAPISuite" title="com.employeeapi.testcase.TC005_Delete_Employee_Record" hash-for-method="checkResponseTime">checkResponseTime</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-EmployeeRestAPISuite" title="com.employeeapi.testcase.TC002_Get_Single_Employee_Record" hash-for-method="checkResponseTime">checkResponseTime</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-EmployeeRestAPISuite" title="com.employeeapi.testcase.TC003_Post_Employee_Record" hash-for-method="checkResponseTime">checkResponseTime</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-EmployeeRestAPISuite" title="com.employeeapi.testcase.TC002_Get_Single_Employee_Record" hash-for-method="checkResponsebody">checkResponsebody</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-EmployeeRestAPISuite" title="com.employeeapi.testcase.TC005_Delete_Employee_Record" hash-for-method="checkResponsebody">checkResponsebody</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-EmployeeRestAPISuite" title="com.employeeapi.testcase.TC001_Get_All_Employees" hash-for-method="checkResponsebody">checkResponsebody</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-EmployeeRestAPISuite" title="com.employeeapi.testcase.TC003_Post_Employee_Record" hash-for-method="checkResponsebody">checkResponsebody</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-EmployeeRestAPISuite" title="com.employeeapi.testcase.TC003_Post_Employee_Record" hash-for-method="checkStatusCode">checkStatusCode</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-EmployeeRestAPISuite" title="com.employeeapi.testcase.TC001_Get_All_Employees" hash-for-method="checkStatusCode">checkStatusCode</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-EmployeeRestAPISuite" title="com.employeeapi.testcase.TC002_Get_Single_Employee_Record" hash-for-method="checkStatusCode">checkStatusCode</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-EmployeeRestAPISuite" title="com.employeeapi.testcase.TC005_Delete_Employee_Record" hash-for-method="checkStatusCode">checkStatusCode</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-EmployeeRestAPISuite" title="com.employeeapi.testcase.TC004_Put_Employee_Record" hash-for-method="checkStatusCode">checkStatusCode</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-EmployeeRestAPISuite" title="com.employeeapi.testcase.TC002_Get_Single_Employee_Record" hash-for-method="checkStatusLine">checkStatusLine</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-EmployeeRestAPISuite" title="com.employeeapi.testcase.TC003_Post_Employee_Record" hash-for-method="checkStatusLine">checkStatusLine</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-EmployeeRestAPISuite" title="com.employeeapi.testcase.TC001_Get_All_Employees" hash-for-method="checkStatusLine">checkStatusLine</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-EmployeeRestAPISuite" title="com.employeeapi.testcase.TC004_Put_Employee_Record" hash-for-method="checkStatusLine">checkStatusLine</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-EmployeeRestAPISuite" title="com.employeeapi.testcase.TC005_Delete_Employee_Record" hash-for-method="checkStatusLine">checkStatusLine</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-EmployeeRestAPISuite" title="com.employeeapi.testcase.TC001_Get_All_Employees" hash-for-method="checkserverType">checkserverType</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-EmployeeRestAPISuite" title="com.employeeapi.testcase.TC003_Post_Employee_Record" hash-for-method="checkserverType">checkserverType</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-EmployeeRestAPISuite" title="com.employeeapi.testcase.TC004_Put_Employee_Record" hash-for-method="checkserverType">checkserverType</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-EmployeeRestAPISuite" title="com.employeeapi.testcase.TC005_Delete_Employee_Record" hash-for-method="checkserverType">checkserverType</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-EmployeeRestAPISuite" title="com.employeeapi.testcase.TC002_Get_Single_Employee_Record" hash-for-method="checkserverType">checkserverType</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-EmployeeRestAPISuite -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-EmployeeRestAPISuite" class="panel EmployeeRestAPISuite">
+          <div class="suite-EmployeeRestAPISuite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">com.employeeapi.testcase.TC004_Put_Employee_Record</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="checkResponsebody">
+                  </a> <!-- checkResponsebody -->
+                  <span class="method-name">checkResponsebody</span>
+                  <div class="stack-trace">java.lang.AssertionError: expected [true] but found [false]
+	at com.employeeapi.testcase.TC004_Put_Employee_Record.checkResponsebody(TC004_Put_Employee_Record.java:53)
+... Removed 31 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-EmployeeRestAPISuite-class-failed -->
+          <div class="suite-EmployeeRestAPISuite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.employeeapi.testcase.TC005_Delete_Employee_Record</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="checkContentLength">
+                  </a> <!-- checkContentLength -->
+                  <span class="method-name">checkContentLength</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="checkContentType">
+                  </a> <!-- checkContentType -->
+                  <span class="method-name">checkContentType</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="checkCookies">
+                  </a> <!-- checkCookies -->
+                  <span class="method-name">checkCookies</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="checkResponseTime">
+                  </a> <!-- checkResponseTime -->
+                  <span class="method-name">checkResponseTime</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="checkResponsebody">
+                  </a> <!-- checkResponsebody -->
+                  <span class="method-name">checkResponsebody</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="checkStatusCode">
+                  </a> <!-- checkStatusCode -->
+                  <span class="method-name">checkStatusCode</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="checkStatusLine">
+                  </a> <!-- checkStatusLine -->
+                  <span class="method-name">checkStatusLine</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="checkserverType">
+                  </a> <!-- checkserverType -->
+                  <span class="method-name">checkserverType</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-EmployeeRestAPISuite-class-passed -->
+          <div class="suite-EmployeeRestAPISuite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.employeeapi.testcase.TC004_Put_Employee_Record</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="checkContentLength">
+                  </a> <!-- checkContentLength -->
+                  <span class="method-name">checkContentLength</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="checkContentType">
+                  </a> <!-- checkContentType -->
+                  <span class="method-name">checkContentType</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="checkCookies">
+                  </a> <!-- checkCookies -->
+                  <span class="method-name">checkCookies</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="checkResponseTime">
+                  </a> <!-- checkResponseTime -->
+                  <span class="method-name">checkResponseTime</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="checkStatusCode">
+                  </a> <!-- checkStatusCode -->
+                  <span class="method-name">checkStatusCode</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="checkStatusLine">
+                  </a> <!-- checkStatusLine -->
+                  <span class="method-name">checkStatusLine</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="checkserverType">
+                  </a> <!-- checkserverType -->
+                  <span class="method-name">checkserverType</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-EmployeeRestAPISuite-class-passed -->
+          <div class="suite-EmployeeRestAPISuite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.employeeapi.testcase.TC002_Get_Single_Employee_Record</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="checkContentLength">
+                  </a> <!-- checkContentLength -->
+                  <span class="method-name">checkContentLength</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="checkContentType">
+                  </a> <!-- checkContentType -->
+                  <span class="method-name">checkContentType</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="checkCookies">
+                  </a> <!-- checkCookies -->
+                  <span class="method-name">checkCookies</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="checkResponseTime">
+                  </a> <!-- checkResponseTime -->
+                  <span class="method-name">checkResponseTime</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="checkResponsebody">
+                  </a> <!-- checkResponsebody -->
+                  <span class="method-name">checkResponsebody</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="checkStatusCode">
+                  </a> <!-- checkStatusCode -->
+                  <span class="method-name">checkStatusCode</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="checkStatusLine">
+                  </a> <!-- checkStatusLine -->
+                  <span class="method-name">checkStatusLine</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="checkserverType">
+                  </a> <!-- checkserverType -->
+                  <span class="method-name">checkserverType</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-EmployeeRestAPISuite-class-passed -->
+          <div class="suite-EmployeeRestAPISuite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.employeeapi.testcase.TC003_Post_Employee_Record</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="checkContentLength">
+                  </a> <!-- checkContentLength -->
+                  <span class="method-name">checkContentLength</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="checkContentType">
+                  </a> <!-- checkContentType -->
+                  <span class="method-name">checkContentType</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="checkCookies">
+                  </a> <!-- checkCookies -->
+                  <span class="method-name">checkCookies</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="checkResponseTime">
+                  </a> <!-- checkResponseTime -->
+                  <span class="method-name">checkResponseTime</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="checkResponsebody">
+                  </a> <!-- checkResponsebody -->
+                  <span class="method-name">checkResponsebody</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="checkStatusCode">
+                  </a> <!-- checkStatusCode -->
+                  <span class="method-name">checkStatusCode</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="checkStatusLine">
+                  </a> <!-- checkStatusLine -->
+                  <span class="method-name">checkStatusLine</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="checkserverType">
+                  </a> <!-- checkserverType -->
+                  <span class="method-name">checkserverType</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-EmployeeRestAPISuite-class-passed -->
+          <div class="suite-EmployeeRestAPISuite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.employeeapi.testcase.TC001_Get_All_Employees</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="checkContentLength">
+                  </a> <!-- checkContentLength -->
+                  <span class="method-name">checkContentLength</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="checkContentType">
+                  </a> <!-- checkContentType -->
+                  <span class="method-name">checkContentType</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="checkCookies">
+                  </a> <!-- checkCookies -->
+                  <span class="method-name">checkCookies</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="checkResponseTime">
+                  </a> <!-- checkResponseTime -->
+                  <span class="method-name">checkResponseTime</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="checkResponsebody">
+                  </a> <!-- checkResponsebody -->
+                  <span class="method-name">checkResponsebody</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="checkStatusCode">
+                  </a> <!-- checkStatusCode -->
+                  <span class="method-name">checkStatusCode</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="checkStatusLine">
+                  </a> <!-- checkStatusLine -->
+                  <span class="method-name">checkStatusLine</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="checkserverType">
+                  </a> <!-- checkserverType -->
+                  <span class="method-name">checkserverType</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-EmployeeRestAPISuite-class-passed -->
+        </div> <!-- panel EmployeeRestAPISuite -->
+        <div panel-name="test-xml-EmployeeRestAPISuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">C:\AvaPro\RestassuredAPITesting_Employee_Project\testng.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite guice-stage=&quot;DEVELOPMENT&quot; name=&quot;EmployeeRestAPISuite&quot;&gt;
+  &lt;listeners&gt;
+    &lt;listener class-name=&quot;com.employeeapi.utility.Listeners&quot;/&gt;
+  &lt;/listeners&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;EmployeeRestAPITest&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.employeeapi.testcase.TC001_Get_All_Employees&quot;/&gt;
+      &lt;class name=&quot;com.employeeapi.testcase.TC002_Get_Single_Employee_Record&quot;/&gt;
+      &lt;class name=&quot;com.employeeapi.testcase.TC003_Post_Employee_Record&quot;/&gt;
+      &lt;class name=&quot;com.employeeapi.testcase.TC004_Put_Employee_Record&quot;/&gt;
+      &lt;class name=&quot;com.employeeapi.testcase.TC005_Delete_Employee_Record&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- EmployeeRestAPITest --&gt;
+&lt;/suite&gt; &lt;!-- EmployeeRestAPISuite --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-EmployeeRestAPISuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for EmployeeRestAPISuite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">EmployeeRestAPITest (5 classes)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-EmployeeRestAPISuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for EmployeeRestAPISuite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-EmployeeRestAPISuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for EmployeeRestAPISuite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_EmployeeRestAPISuite');
+function tableData_EmployeeRestAPISuite() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(40);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'checkContentLength')
+data.setCell(0, 2, 'com.employeeapi.testcase.TC001_Get_All_Employees')
+data.setCell(0, 3, 194);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'checkResponsebody')
+data.setCell(1, 2, 'com.employeeapi.testcase.TC002_Get_Single_Employee_Record')
+data.setCell(1, 3, 28);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'checkCookies')
+data.setCell(2, 2, 'com.employeeapi.testcase.TC004_Put_Employee_Record')
+data.setCell(2, 3, 26);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'checkResponseTime')
+data.setCell(3, 2, 'com.employeeapi.testcase.TC001_Get_All_Employees')
+data.setCell(3, 3, 14);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'checkResponseTime')
+data.setCell(4, 2, 'com.employeeapi.testcase.TC004_Put_Employee_Record')
+data.setCell(4, 3, 13);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'checkContentType')
+data.setCell(5, 2, 'com.employeeapi.testcase.TC003_Post_Employee_Record')
+data.setCell(5, 3, 12);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'checkserverType')
+data.setCell(6, 2, 'com.employeeapi.testcase.TC001_Get_All_Employees')
+data.setCell(6, 3, 11);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'checkResponsebody')
+data.setCell(7, 2, 'com.employeeapi.testcase.TC004_Put_Employee_Record')
+data.setCell(7, 3, 11);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'checkserverType')
+data.setCell(8, 2, 'com.employeeapi.testcase.TC005_Delete_Employee_Record')
+data.setCell(8, 3, 10);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'checkStatusCode')
+data.setCell(9, 2, 'com.employeeapi.testcase.TC001_Get_All_Employees')
+data.setCell(9, 3, 9);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'checkStatusLine')
+data.setCell(10, 2, 'com.employeeapi.testcase.TC001_Get_All_Employees')
+data.setCell(10, 3, 9);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'checkContentLength')
+data.setCell(11, 2, 'com.employeeapi.testcase.TC002_Get_Single_Employee_Record')
+data.setCell(11, 3, 8);
+data.setCell(12, 0, 12)
+data.setCell(12, 1, 'checkContentType')
+data.setCell(12, 2, 'com.employeeapi.testcase.TC002_Get_Single_Employee_Record')
+data.setCell(12, 3, 8);
+data.setCell(13, 0, 13)
+data.setCell(13, 1, 'checkStatusLine')
+data.setCell(13, 2, 'com.employeeapi.testcase.TC003_Post_Employee_Record')
+data.setCell(13, 3, 7);
+data.setCell(14, 0, 14)
+data.setCell(14, 1, 'checkserverType')
+data.setCell(14, 2, 'com.employeeapi.testcase.TC004_Put_Employee_Record')
+data.setCell(14, 3, 7);
+data.setCell(15, 0, 15)
+data.setCell(15, 1, 'checkContentLength')
+data.setCell(15, 2, 'com.employeeapi.testcase.TC005_Delete_Employee_Record')
+data.setCell(15, 3, 6);
+data.setCell(16, 0, 16)
+data.setCell(16, 1, 'checkContentLength')
+data.setCell(16, 2, 'com.employeeapi.testcase.TC003_Post_Employee_Record')
+data.setCell(16, 3, 6);
+data.setCell(17, 0, 17)
+data.setCell(17, 1, 'checkContentType')
+data.setCell(17, 2, 'com.employeeapi.testcase.TC001_Get_All_Employees')
+data.setCell(17, 3, 6);
+data.setCell(18, 0, 18)
+data.setCell(18, 1, 'checkStatusCode')
+data.setCell(18, 2, 'com.employeeapi.testcase.TC003_Post_Employee_Record')
+data.setCell(18, 3, 5);
+data.setCell(19, 0, 19)
+data.setCell(19, 1, 'checkCookies')
+data.setCell(19, 2, 'com.employeeapi.testcase.TC005_Delete_Employee_Record')
+data.setCell(19, 3, 5);
+data.setCell(20, 0, 20)
+data.setCell(20, 1, 'checkserverType')
+data.setCell(20, 2, 'com.employeeapi.testcase.TC003_Post_Employee_Record')
+data.setCell(20, 3, 5);
+data.setCell(21, 0, 21)
+data.setCell(21, 1, 'checkContentType')
+data.setCell(21, 2, 'com.employeeapi.testcase.TC005_Delete_Employee_Record')
+data.setCell(21, 3, 5);
+data.setCell(22, 0, 22)
+data.setCell(22, 1, 'checkCookies')
+data.setCell(22, 2, 'com.employeeapi.testcase.TC001_Get_All_Employees')
+data.setCell(22, 3, 5);
+data.setCell(23, 0, 23)
+data.setCell(23, 1, 'checkStatusCode')
+data.setCell(23, 2, 'com.employeeapi.testcase.TC005_Delete_Employee_Record')
+data.setCell(23, 3, 5);
+data.setCell(24, 0, 24)
+data.setCell(24, 1, 'checkResponsebody')
+data.setCell(24, 2, 'com.employeeapi.testcase.TC001_Get_All_Employees')
+data.setCell(24, 3, 5);
+data.setCell(25, 0, 25)
+data.setCell(25, 1, 'checkStatusLine')
+data.setCell(25, 2, 'com.employeeapi.testcase.TC002_Get_Single_Employee_Record')
+data.setCell(25, 3, 4);
+data.setCell(26, 0, 26)
+data.setCell(26, 1, 'checkResponseTime')
+data.setCell(26, 2, 'com.employeeapi.testcase.TC005_Delete_Employee_Record')
+data.setCell(26, 3, 4);
+data.setCell(27, 0, 27)
+data.setCell(27, 1, 'checkCookies')
+data.setCell(27, 2, 'com.employeeapi.testcase.TC003_Post_Employee_Record')
+data.setCell(27, 3, 4);
+data.setCell(28, 0, 28)
+data.setCell(28, 1, 'checkStatusCode')
+data.setCell(28, 2, 'com.employeeapi.testcase.TC002_Get_Single_Employee_Record')
+data.setCell(28, 3, 4);
+data.setCell(29, 0, 29)
+data.setCell(29, 1, 'checkContentType')
+data.setCell(29, 2, 'com.employeeapi.testcase.TC004_Put_Employee_Record')
+data.setCell(29, 3, 4);
+data.setCell(30, 0, 30)
+data.setCell(30, 1, 'checkResponseTime')
+data.setCell(30, 2, 'com.employeeapi.testcase.TC002_Get_Single_Employee_Record')
+data.setCell(30, 3, 4);
+data.setCell(31, 0, 31)
+data.setCell(31, 1, 'checkResponsebody')
+data.setCell(31, 2, 'com.employeeapi.testcase.TC005_Delete_Employee_Record')
+data.setCell(31, 3, 4);
+data.setCell(32, 0, 32)
+data.setCell(32, 1, 'checkContentLength')
+data.setCell(32, 2, 'com.employeeapi.testcase.TC004_Put_Employee_Record')
+data.setCell(32, 3, 4);
+data.setCell(33, 0, 33)
+data.setCell(33, 1, 'checkResponseTime')
+data.setCell(33, 2, 'com.employeeapi.testcase.TC003_Post_Employee_Record')
+data.setCell(33, 3, 4);
+data.setCell(34, 0, 34)
+data.setCell(34, 1, 'checkCookies')
+data.setCell(34, 2, 'com.employeeapi.testcase.TC002_Get_Single_Employee_Record')
+data.setCell(34, 3, 4);
+data.setCell(35, 0, 35)
+data.setCell(35, 1, 'checkStatusCode')
+data.setCell(35, 2, 'com.employeeapi.testcase.TC004_Put_Employee_Record')
+data.setCell(35, 3, 3);
+data.setCell(36, 0, 36)
+data.setCell(36, 1, 'checkResponsebody')
+data.setCell(36, 2, 'com.employeeapi.testcase.TC003_Post_Employee_Record')
+data.setCell(36, 3, 3);
+data.setCell(37, 0, 37)
+data.setCell(37, 1, 'checkStatusLine')
+data.setCell(37, 2, 'com.employeeapi.testcase.TC005_Delete_Employee_Record')
+data.setCell(37, 3, 3);
+data.setCell(38, 0, 38)
+data.setCell(38, 1, 'checkserverType')
+data.setCell(38, 2, 'com.employeeapi.testcase.TC002_Get_Single_Employee_Record')
+data.setCell(38, 3, 3);
+data.setCell(39, 0, 39)
+data.setCell(39, 1, 'checkStatusLine')
+data.setCell(39, 2, 'com.employeeapi.testcase.TC004_Put_Employee_Record')
+data.setCell(39, 3, 2);
+window.suiteTableData['EmployeeRestAPISuite']= { tableData: data, tableDiv: 'times-div-EmployeeRestAPISuite'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 474 ms</span>
+              <div id="times-div-EmployeeRestAPISuite">
+              </div> <!-- times-div-EmployeeRestAPISuite -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-EmployeeRestAPISuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for EmployeeRestAPISuite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-EmployeeRestAPISuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-EmployeeRestAPISuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.employeeapi.testcase.TC001_Get_All_Employees</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setup</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-class before">
+                <span class="method-name">getAllEmployees</span>
+                <span class="method-start">101 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">checkContentLength</span>
+                <span class="method-start">7406 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">checkContentType</span>
+                <span class="method-start">7628 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">checkCookies</span>
+                <span class="method-start">7636 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">checkResponseTime</span>
+                <span class="method-start">7644 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">checkStatusCode</span>
+                <span class="method-start">7670 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">checkStatusLine</span>
+                <span class="method-start">7695 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">checkserverType</span>
+                <span class="method-start">7716 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.employeeapi.testcase.TC002_Get_Single_Employee_Record</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setup</span>
+                <span class="method-start">7753 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-class before">
+                <span class="method-name">getEmployeeData</span>
+                <span class="method-start">7759 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">checkContentLength</span>
+                <span class="method-start">14442 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">checkContentType</span>
+                <span class="method-start">14452 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">checkCookies</span>
+                <span class="method-start">14471 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">checkResponseTime</span>
+                <span class="method-start">14478 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">checkResponsebody</span>
+                <span class="method-start">14484 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">checkStatusCode</span>
+                <span class="method-start">14514 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">checkStatusLine</span>
+                <span class="method-start">14520 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">checkserverType</span>
+                <span class="method-start">14526 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">14530 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.employeeapi.testcase.TC003_Post_Employee_Record</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setup</span>
+                <span class="method-start">14533 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-class before">
+                <span class="method-name">createNewEmployee</span>
+                <span class="method-start">14536 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">checkContentLength</span>
+                <span class="method-start">20280 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">checkContentType</span>
+                <span class="method-start">20290 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">checkCookies</span>
+                <span class="method-start">20306 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">checkResponseTime</span>
+                <span class="method-start">20311 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">checkResponsebody</span>
+                <span class="method-start">20316 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">checkStatusCode</span>
+                <span class="method-start">20322 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">checkStatusLine</span>
+                <span class="method-start">20336 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">checkserverType</span>
+                <span class="method-start">20350 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">20358 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.employeeapi.testcase.TC004_Put_Employee_Record</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setup</span>
+                <span class="method-start">20371 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-class before">
+                <span class="method-name">updateEmployee</span>
+                <span class="method-start">20374 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">checkContentLength</span>
+                <span class="method-start">26092 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">checkContentType</span>
+                <span class="method-start">26098 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">checkCookies</span>
+                <span class="method-start">26104 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">checkResponseTime</span>
+                <span class="method-start">26139 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">checkResponsebody</span>
+                <span class="method-start">26153 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">checkStatusCode</span>
+                <span class="method-start">26171 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">checkStatusLine</span>
+                <span class="method-start">26175 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">checkserverType</span>
+                <span class="method-start">26180 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">26189 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.employeeapi.testcase.TC005_Delete_Employee_Record</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setup</span>
+                <span class="method-start">26210 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-class before">
+                <span class="method-name">updateEmployee</span>
+                <span class="method-start">26217 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">checkContentLength</span>
+                <span class="method-start">33097 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">checkContentType</span>
+                <span class="method-start">33105 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">checkCookies</span>
+                <span class="method-start">33113 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">checkResponseTime</span>
+                <span class="method-start">33119 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">checkResponsebody</span>
+                <span class="method-start">33125 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">checkStatusCode</span>
+                <span class="method-start">33133 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">checkStatusLine</span>
+                <span class="method-start">33141 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">checkserverType</span>
+                <span class="method-start">33146 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">33157 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.employeeapi.testcase.TC001_Get_All_Employees</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">checkResponsebody</span>
+                <span class="method-start">33162 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">33168 ms</span>
+              </div> <!-- configuration-class after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+</html>
